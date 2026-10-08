@@ -1,0 +1,10 @@
+method_key,dye,n_above_display_cap,display_y_cap
+ru_nnls,SYTO16-like,0,0.45
+ru_nnls,DIA-like,4,0.45
+ru_nnls,DeepRed-like,2,0.45
+ru_poisson,SYTO16-like,0,0.45
+ru_poisson,DIA-like,5,0.45
+ru_poisson,DeepRed-like,2,0.45
+joint,SYTO16-like,0,0.45
+joint,DIA-like,5,0.45
+joint,DeepRed-like,1,0.45

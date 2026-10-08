@@ -1,0 +1,34 @@
+
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw datasets (re-downloadable, not part of repo)
+raw_download/
+raw_download_all/
+extracted_all_zips/
+extracted_one_zip/
+*.zip
+
+# Corrupted file (bad zip in git history)
+data/processed/bbbc021_single_cell_patches/A_bbbc021_single_cell_8269cells_128x128x3.npz
+
+# Oversized files (>100MB, exceed GitHub limit; re-generate via 06/07/08 scripts)
+data/processed/bbbc021_lase_train_ready_44spots/A_bbbc021_3ch_8269cells_128x128x3.npy
+data/processed/bbbc021_lase_train_ready_44spots/Y_obs_norm_bbbc021_lase_3ch_8269cells_44spots_Tx16.npy
+data/processed/bbbc021_lase_waveforms/Y_bbbc021_lase_3ch_294cells_Tx16.npz
+
+# Historical exploratory scripts (not part of final paper)
+_archive/

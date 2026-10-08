@@ -1,0 +1,58 @@
+{
+  "input_file": "E:\\gsz\\LASE_second_paper\\BBBC021_download\\data\\processed\\bbbc021_hyperspectral_dataset\\X_bbbc021_3ch_294cells_128x128x16.npz",
+  "output_file": "E:\\gsz\\LASE_second_paper\\BBBC021_download\\data\\processed\\bbbc021_lase_waveforms\\Y_bbbc021_lase_3ch_294cells_Tx16.npz",
+  "X_shape": [
+    294,
+    128,
+    128,
+    16
+  ],
+  "A_shape": [
+    294,
+    128,
+    128,
+    3
+  ],
+  "S_shape": [
+    3,
+    16
+  ],
+  "Y_clean_shape": [
+    294,
+    5718,
+    16
+  ],
+  "Y_obs_shape": [
+    294,
+    5718,
+    16
+  ],
+  "Y_obs_norm_shape": [
+    294,
+    5718,
+    16
+  ],
+  "Y_lambda_shape": [
+    294,
+    5718,
+    16
+  ],
+  "Y_clean_min": 0.0,
+  "Y_clean_max": 1.3520503044128418,
+  "Y_obs_min": 0.0,
+  "Y_obs_max": 1417.0,
+  "Y_obs_norm_min": 0.0,
+  "Y_obs_norm_max": 1.4149999618530273,
+  "gap": 2,
+  "params": {
+    "patch_size_um": 30.0,
+    "num_spots": 44,
+    "fwhm_um": 1.3,
+    "gain_std": 0.03,
+    "sidelobe_alpha": 0.02,
+    "gap_ratio": 0.01,
+    "peak_photon_count": 1000.0,
+    "background_count": 2.0,
+    "random_seed": 20260517
+  }
+}

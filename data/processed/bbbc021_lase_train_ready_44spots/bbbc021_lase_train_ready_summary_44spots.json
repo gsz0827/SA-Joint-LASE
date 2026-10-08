@@ -1,0 +1,51 @@
+{
+  "metadata_file": "E:\\gsz\\LASE_second_paper\\BBBC021_download\\data\\processed\\bbbc021_lase_train_ready_44spots\\bbbc021_lase_train_ready_metadata_8269cells_44spots.npz",
+  "A_npy_path": "E:\\gsz\\LASE_second_paper\\BBBC021_download\\data\\processed\\bbbc021_lase_train_ready_44spots\\A_bbbc021_3ch_8269cells_128x128x3.npy",
+  "Y_obs_norm_npy_path": "E:\\gsz\\LASE_second_paper\\BBBC021_download\\data\\processed\\bbbc021_lase_train_ready_44spots\\Y_obs_norm_bbbc021_lase_3ch_8269cells_44spots_Tx16.npy",
+  "A_shape": [
+    8269,
+    128,
+    128,
+    3
+  ],
+  "Y_obs_norm_shape": [
+    8269,
+    5718,
+    16
+  ],
+  "S_shape": [
+    3,
+    16
+  ],
+  "S_row_sums": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "S_row_max": [
+    0.16888532042503357,
+    0.12608632445335388,
+    0.17220178246498108
+  ],
+  "gap": 2,
+  "dx_um": 0.6976744186046512,
+  "pixel_size_um": 0.234375,
+  "sigma_pix": 1.8118865072811075,
+  "Y_obs_norm_min": -0.009999999776482582,
+  "Y_obs_norm_max": 0.3580000102519989,
+  "Y_clean_min": 0.0,
+  "Y_clean_max": 0.2885303497314453,
+  "params": {
+    "patch_size_um": 30.0,
+    "num_spots": 44,
+    "fwhm_um": 1.0,
+    "gain_std": 0.0,
+    "sidelobe_alpha": 0.04,
+    "gap_ratio": 0.01,
+    "peak_photon_count": 1000.0,
+    "background_count": 10.0,
+    "observation_normalization": "background_subtracted_by_peak_no_clip",
+    "random_seed": 20260517
+  },
+  "note": "Train-ready BBBC021 LASE dataset. A and Y_obs_norm are saved as .npy arrays. Y_obs_norm is background-subtracted and divided by peak; negative values are preserved."
+}

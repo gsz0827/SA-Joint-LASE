@@ -20,6 +20,8 @@ BBBC021_download/
 ├── 08_simulate_bbbc021_lase_waveforms_practical_44spots.py # LASE 正演模拟（44 光斑）
 ├── 09_invert_bbbc021_spectral_ambiguity_tv_44spots_final_ablation_fulltest.py # SA-Joint 联合反演（核心）
 ├── 10_two_step_bbbc021_decode_then_unmix_44spots.py      # RU 两阶段对比基线
+├── 19_run_spectral_ambiguity_tv_sweep_20samples_1000iters.py  # 调参扫描（20 样本粗扫）
+├── 20_run_spectral_ambiguity_tv_fine_sweep_20samples_1000iters.py # 调参扫描（20 样本精扫）
 ├── 21_run_final_ablation_20samples_1000iters.py          # 消融实验运行器（20 样本试跑）
 ├── 22_run_final_ablation_full_test_1000iters.py          # 消融实验运行器（全量测试）
 ├── 23_collect_main_results_spectral_ambiguity_joint_44spots.py # 汇总主结果
@@ -49,7 +51,7 @@ BBBC021_download/
 │   └── bbbc021_spectral_metadata_preview/
 │
 └── _archive/                               # 历史遗留（已归档，非当前实验）
-    └── exploratory_scripts/                # 诊断 + 调参扫描脚本（00/19/20）
+    └── exploratory_scripts/                # 诊断脚本（00）
 ```
 
 ## 实验流程
